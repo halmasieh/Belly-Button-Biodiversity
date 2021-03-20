@@ -11,7 +11,7 @@ We also build our JavaScript foundation to manipulate, parse, transform data and
 to retrieve data from external sources like csv files, json and APIs. Finally, we diploy a polish data visualization to the web.
 
 We use HTML, and basic JavaScript to do the following steps: 
-   - Create basic plots with Plotly, including bar chart, bubble chart, and gauge chart.
+   - Create plots with Plotly, including bar chart, bubble chart, and gauge chart.
    - Use D3.json() to fetch external data, such as CSV files and web APIs.
    - Parse data in JSON format.
    - Use functional programming in JavaScript to manipulate data.
@@ -23,7 +23,7 @@ We use HTML, and basic JavaScript to do the following steps:
 ## Resources
 Software: [Visual Studio Code](https://code.visualstudio.com/), [JavaScript ES6](https://www.w3schools.com/Js/js_es6.asp)
 
-library: Plotly and d3
+library: Plotly and D3
 
 
 ## Summary
