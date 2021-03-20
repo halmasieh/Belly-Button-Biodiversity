@@ -35,7 +35,7 @@ This project is summarized as the following using the knowledge of JavaScript, P
 
 3- Create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
 
-4- Customize your dashboard with three of the following:
+4- Customize dashboard with three of the following:
  - Add an image to the jumbotron.
  - Add background color or a variety of compatible colors to the webpage.
  - Make the webpage mobile-responsive.
