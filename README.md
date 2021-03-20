@@ -3,7 +3,7 @@
 ## Project Overview
 In this analysis, we start by creating the visualization of the web. We not only need to analyze data and draw conclusions but we also need visualize data in order to
 communicate findings to audience.
-In other words, we use the power of JavaScript to create data visualizations that are attractive accessible, and interactive using Plotly.js.
+In other words, we use the power of JavaScript to create data visualizations that are attractive accessible, and interactive using Plotly. js.
 A Javascript data visualization library like Plotly offers interactivity that increases audience comprehension which means it can help our audiences better 
 understand our data and draw the same conclusions that we did. 
 
@@ -12,7 +12,7 @@ to retrieve data from external sources like csv files, json and APIs. Finally, w
 
 We use HTML, and basic JavaScript to do the following steps: 
    - Create plots with Plotly, including bar chart, bubble chart, and gauge chart.
-   - Use D3.json() to fetch external data, such as CSV files and web APIs.
+   - Use D3. json() to fetch external data, such as CSV files and web APIs.
    - Parse data in JSON format.
    - Use functional programming in JavaScript to manipulate data.
    - Use event handlers in JavaScript to add interactivity to a data visualization.
