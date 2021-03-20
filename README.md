@@ -28,6 +28,7 @@ library: Plotly and D3
 
 ## Summary
 This project is summarized as the following using the knowledge of JavaScript, Plotly, and D3.js.:
+
 1- Create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. 
 
 2- Create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage.
