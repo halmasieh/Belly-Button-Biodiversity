@@ -28,7 +28,11 @@ library: Plotly and d3
 
 
 ## Summary
-We provide a dynamic webpage by allowing users to filter UFO sightings on multiple criterias at the same time. The table filters included for date, city, sate, country and shape. Bundled into one tidy package, every sighting would be available for Dana (and her readers) to view. Although the created table is well organized, it is huge 
-with hundreds of rows which is entirely too much for one person to reasonably look through and study. Therefore, using the filter feature, this possibility is provided
-for group or individual search and enables the user to see, for example, all data related to the first of May in the US country as below:
-
+This project is summarized as the following using the knowledge of JavaScript, Plotly, and D3.js.:
+1- Create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. 
+2- Create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage.
+3- Create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
+4- Customize your dashboard with three of the following:
+ - Add an image to the jumbotron.
+ - Add background color or a variety of compatible colors to the webpage.
+ - Make the webpage mobile-responsive.
