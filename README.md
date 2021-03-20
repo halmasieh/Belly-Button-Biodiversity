@@ -31,7 +31,7 @@ This project is summarized as the following using the knowledge of JavaScript, P
 
 1- Create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. 
 
-2- Create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage.
+2- Create a bubble chart when an individual’s ID is selected from the dropdown menu webpage.
 
 3- Create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
 
