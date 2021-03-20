@@ -12,7 +12,7 @@ to retrieve data from external sources like csv files, json and APIs. Finally, w
 
 We use HTML, and basic JavaScript to do the following steps: 
    - Create plots with Plotly, including bar chart, bubble chart, and gauge chart.
-   - Use D3. json() to fetch external data, such as json file.
+   - Use D3. json() to fetch external data, such as JSON file.
    - Parse data in JSON format.
    - Use functional programming in JavaScript to manipulate data.
    - Use event handlers in JavaScript to add interactivity to a data visualization.
