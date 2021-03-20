@@ -5,7 +5,7 @@ In this analysis, we start by creating the visualization of the web. We not only
 communicate findings to audience.
 In other words, we use the power of JavaScript to create data visualizations that are attractive accessible, and interactive using Plotly.js.
 A Javascript data visualization library like Plotly offers interactivity that increases audience comprehension which means it can help our audiences better 
-understand your data and draw the same conclusions that we did. 
+understand our data and draw the same conclusions that we did. 
 
 We also build our JavaScript foundation to manipulate, parse, transform data and build interactive features such as buttons and dropdown menu as well as 
 to retrieve data from external sources like csv files, json and APIs. Finally, we diploy a polish data visualization to the web.
