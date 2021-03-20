@@ -10,8 +10,7 @@ understand our data and draw the same conclusions that we did.
 We also build our JavaScript foundation to manipulate, parse, transform data and build interactive features such as buttons and dropdown menu as well as 
 to retrieve data from external sources like csv files, json and APIs. Finally, we diploy a polish data visualization to the web.
 
-We use basic HTML, and basic JavaScript. 
-The project is done as follows: 
+We use HTML, and basic JavaScript to do the following steps: 
    - Create basic plots with Plotly, including bar chart, bubble chart, and gauge chart.
    - Use D3.json() to fetch external data, such as CSV files and web APIs.
    - Parse data in JSON format.
