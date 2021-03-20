@@ -1,3 +1,4 @@
+## Belly Button Biodiversity
 
 ## Project Overview
 In this analysis, we start by creating the visualization of the web. We notonly need to analyze data and draw conclusions but we also need visualize data in order to
@@ -17,6 +18,7 @@ The project is done as follows:
 
 ## Resources
 Software: [Visual Studio Code](https://code.visualstudio.com/), [JavaScript ES6](https://www.w3schools.com/Js/js_es6.asp)
+
 library: Plotly
 
 
