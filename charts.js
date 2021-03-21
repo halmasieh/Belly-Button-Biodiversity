@@ -111,7 +111,7 @@ function buildCharts(sample) {
     var barData = [trace1];
     // Create the layout for the bar chart. 
     var barLayout = {
-      title: "top 10 Bacteria Cultures Found",
+      title: "Top 10 Bacteria Cultures Found",
       yaxis: {ticktext: hover_otu_labels},
       bargap: 0.2,
       // paper_bgcolor: "silver",
@@ -140,7 +140,7 @@ function buildCharts(sample) {
 
       // Create the layout for the bubble chart.
     var bubbleLayout = {
-    title : "Bacteria Cultures per sample",
+    title : "Bacteria Cultures Per Sample",
     xaxis : {title : "OTU ID"},
     margin: {
             l: 40,
@@ -149,37 +149,37 @@ function buildCharts(sample) {
             b: 70
           },   
     hovermode: `closest`,
-    // paper_bgcolor: "silver",
-    // plot_bgcolor: "lightgray"
+    //paper_bgcolor: "silver",
+    //plot_bgcolor: "lightgray"
     };
 
     // Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout, {responsive:true});
 
     // Create the trace for the gauge chart.
-    var trace3 = {
+    var trace3 ={
+      domain: {x:[0,1], y:[0,1]},
       value: wfreq,
-      // title: {text: "Scrubs Per Week", font: {size:14}},
-      title : {text:"<b>Belly Button Washing Frequency</b><br>Scrubs Per Week", font: {size:14}},
       type: "indicator",
       mode: "gauge+number",
+      title : {text:"<b>Belly Button Washing Frequency</b><br>Scrubs Per Week"},
       gauge: {
-        axis: {range: [null, 10], tickwidth: 1, tickcolor: "black"},
-        bgcolor: "white",
+      axis:{range:[null,10],tickwidth: 1, tickcolor: "black"},
+      bgcolor: "white",
         borderwidth: 2,
         bordercolor: "gray",
         bar: { color: "black" },
-        steps: [
-          { range: [0, 2], color: "red" },
-          { range: [2, 4], color: "orange" },
-          { range: [4, 6], color: "yellow" },
-          { range: [6, 8], color: "lightgreen" },
-          { range: [8, 10], color: "green" },
-        ],
+      steps:[
+      { range: [0, 2], color: "red" },
+      { range: [2, 4], color: "orange" },
+      { range: [4, 6], color: "yellow" },
+      { range: [6, 8], color: "lightgreen"},
+      { range: [8, 10], color: "green" },
+    ],
       }
     
     };
-    
+      
     // Create the gauge chart
     var gaugeData = [trace3];
 
@@ -188,7 +188,7 @@ function buildCharts(sample) {
       // title : {text:"<b>Belly Button Washing Frequency</b><br>Scrubs Per Week" },
       width: 500,
       height: 400,
-      //margin: { t: 25, r: 25, l: 25, b: 25},
+      margin: { t: 0, b: 0},
       font: { color: "black", family: "Arial" }
     };
   
