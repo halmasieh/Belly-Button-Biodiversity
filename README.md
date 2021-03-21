@@ -39,3 +39,4 @@ This project is summarized as the following using the knowledge of JavaScript, P
  - Add an image to the jumbotron.
  - Add background color or a variety of compatible colors to the webpage.
  - Make the webpage mobile-responsive.
+ - Use a custom font with contrast for the colors.
